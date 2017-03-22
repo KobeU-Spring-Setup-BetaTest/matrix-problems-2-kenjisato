@@ -1,0 +1,81 @@
+---
+title: "Matrix_Problems_2"
+author: "Massimiliano Porto"
+date: "21 marzo 2017"
+output: pdf_document
+---
+
+#Matrix transposition
+
+Calculate the transposition of Matrix A
+
+$$
+A = 
+\begin{bmatrix}
+ 1 & 2 & 3 \\
+ 4 & 5 & 6 \\
+\end{bmatrix}\ \ \
+A^T =
+\begin{bmatrix}
+ \dots & \dots \\
+ \dots & \dots \\
+ \dots & \dots \\
+\end{bmatrix}
+$$
+#Properties of transpose
+
+Properties:
+
++ $(A^T)^{T} = A$
++ $(A + B)^{T} = A^{T} + B^{T}$
++ $(AB)^{T} = B^{T}A^{T}$ 
+\\
+Given
+
+$$
+A=
+\begin{bmatrix}
+ 1 & 2 & 3 \\
+ 4 & 5 & 6 \\
+\end{bmatrix} \ \ \
+B = 
+\begin{bmatrix}
+ -1 & 4 \\
+ 2 & -3 \\
+ 1 & 0 \\
+\end{bmatrix}
+$$
+
+Calculate:
+
+1) $(B^T)^{T}$
+
+2) $(A + B)^{T}$
+
+3) $(AB)^{T}$
+
+#Trace of a Matrix
+
+Given 
+
+$$
+C =
+\begin{bmatrix}
+ 1 & 2 & 3 \\
+ 4 & 5 & 6 \\
+ 7 & 8 & 9 \\
+\end{bmatrix} \ \ \
+D = 
+\begin{bmatrix}
+ 5 & 6 & 3 & -2\\
+ -1 & 1 & 2 & -1\\
+ 4 & -1 & -2 & 3\\
+ 3 & 4 & -1 & -1 \\
+\end{bmatrix}
+$$
+
+Calculate:
+
+1) Trace(C)
+
+2) Trace(D)
