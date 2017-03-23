@@ -1,6 +1,6 @@
 ---
 title: "Matrix_Problems_2"
-author: "Massimiliano Porto"
+author: "Kenji Sato"
 date: "21 marzo 2017"
 output: pdf_document
 ---
@@ -17,11 +17,12 @@ A =
 \end{bmatrix}\ \ \
 A^T =
 \begin{bmatrix}
- \dots & \dots \\
- \dots & \dots \\
- \dots & \dots \\
+ 1 & 4 \\
+ 2 & 5 \\
+ 3 & 6 \\
 \end{bmatrix}
 $$
+
 #Properties of transpose
 
 Properties:
@@ -29,7 +30,7 @@ Properties:
 + $(A^T)^{T} = A$
 + $(A + B)^{T} = A^{T} + B^{T}$
 + $(AB)^{T} = B^{T}A^{T}$ 
-\\
+
 Given
 
 $$
@@ -50,9 +51,39 @@ Calculate:
 
 1) $(B^T)^{T}$
 
+$$
+(B^T)^T = 
+\begin{bmatrix}
+ -1 & 4 \\
+ 2 & -3 \\
+ 1 & 0 \\
+\end{bmatrix}
+$$
+
+
 2) $(A + B)^{T}$
 
+**Addition undefined.**
+
 3) $(AB)^{T}$
+
+$$
+AB = 
+\begin{bmatrix}
+  6 & -2\\
+  12  & 1
+\end{bmatrix}
+$$
+
+$$
+(AB)^T 
+=
+\begin{bmatrix}
+  6 & 12 \\
+  -2 & 1
+\end{bmatrix}
+$$
+
 
 #Trace of a Matrix
 
@@ -78,4 +109,8 @@ Calculate:
 
 1) Trace(C)
 
+$\operatorname{trace} C = 15$
+
 2) Trace(D)
+
+$\operatorname{trace} D = 3$
